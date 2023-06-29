@@ -1,13 +1,14 @@
 import List from "./list" ;
 import "./App.css";
+import EventHandler from "./toopics events/event index";
 
-const COUNTRIES=['india','nepal','america','london'];
 function  App() {
+  const COUNTRIES=['india','nepal','america','london'];
   return (
     
-    <div className="containers p-5">
-   <List countries={COUNTRIES}  id='5' />
-    </div>
+        <div className="containers p-5">
+       <List countries={COUNTRIES} name="Number Of Countries" id='5' />
+        </div>
   );
 }
-export default App;
+export default App; 
