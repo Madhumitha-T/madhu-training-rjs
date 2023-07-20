@@ -1,5 +1,0 @@
-function EventHandler(){
-    return <div className="card">
-        <button>alert</button>
-    </div>
-}
